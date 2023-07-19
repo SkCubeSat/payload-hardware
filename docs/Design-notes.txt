@@ -1,0 +1,22 @@
+################## RADSAT-SK 2 PAYLOAD POC!!!!!!!!!!!!!!! ######################################
+
+We used an ADC with an I2C interface on the last payload, so why not here?!
+Hence this IC: https://www.nxp.com/docs/en/data-sheet/PCA9548A.pdf 
+Cool, so we can send upto 7 I2C lines from diffrent micros to this chip and then this chip will talk to the OBC. 
+
+################ 1st Micro: #################################
+
+ATMEGA328P - because *obviously* its Arduinoooooo! 
+Simple implementation nothing out the usual. 
+
+################# 2nd Micro: ############################
+
+PIC16F1503-I/SL - because people do be using it and simple to implement, our friends at microchip have very *conviniently* made us a dev board and published the schematic so Ill be stealing that, thank you very much. https://ww1.microchip.com/downloads/en/DeviceDoc/Curiosity_LPC_Schematics_rev4.pdf
+
+How does one program this bad boy? Freaking PICkit, Im gonna use their header that is out of stock, but I'm sure we can get our hands on it somehow, only need one anyway. https://ww1.microchip.com/downloads/en/DeviceDoc/40001607D.pdf pg 249, 250
+
+################## 3rd Micro: ################################
+
+
+
+
